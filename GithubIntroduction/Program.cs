@@ -8,4 +8,5 @@
 using GithubIntroduction;
 
 Console.WriteLine(new Octagon(2.5).GetArea());
+Console.WriteLine(new Square(2.5).GetArea());
 Console.WriteLine(new Circle(2.5).GetArea());
