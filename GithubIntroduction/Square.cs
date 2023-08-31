@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace GithubIntroduction
 {
-    internal class Square
+    public class Square : Regular2DShape
     {
+        public Square(double length) : base(length)
+        {
+        }
+
+        public override double GetArea()
+        {
+            return Math.Pow(Length, 2);
+        }
     }
 }
